@@ -1,4 +1,5 @@
 Editorjs-html you can convert the output object of EditorJs to HTML using editor-js/editorjs-php validation
+<br>
 Note: The components work with Tailwind classes
 
 <h2>Support Blocks</h2>
