@@ -20,7 +20,11 @@ Note: The components work with Tailwind classes
 </ul>
 
 <h2>Installation</h2>
+<pre>
+
 composer require ankitech/laravel-editorjs-html
+php artisan vendor:publish --provider="Ankitech\LaravelEditorjsHtml\EditorJSHtmlProvider"
+</pre>
 
 <h2>Usage</h2>
 <pre>
