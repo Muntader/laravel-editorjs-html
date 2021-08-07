@@ -1,0 +1,20 @@
+{
+  "tools": {
+    "test": {
+      "bool_test": {
+        "type": "boolean",
+        "required": false
+      },
+      "int_test": {
+        "type": "integer",
+        "required": false,
+        "allow_null": true
+      },
+      "string_test": {
+        "type": "string",
+        "required": false,
+        "allow_null": false
+      }
+    }
+  }
+}
