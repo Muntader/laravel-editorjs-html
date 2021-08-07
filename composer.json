@@ -1,6 +1,7 @@
 {
     "name": "ankitech/laravel-editorjs-html",
     "type": "metapackage",
+    "license": "MIT",
     "require": {
         "php": "^7.3|^8.0",
         "codex-team/editor.js": "^2.0",
@@ -12,7 +13,7 @@
             "email": "dev@ankitech.co"
         }
     ],
-    "minimum-stability": "beta",
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "Ankitech\\LaravelEditorjsHtml\\": "src/"
@@ -26,6 +27,10 @@
             "aliases": {
                 "EditorJSHtml": "Ankitech\\LaravelEditorjsHtml\\Facades\\EditorJSHtml"
             }
+        },
+        
+        "branch-alias": {
+            "dev-master": "1.0-dev"
         }
     }
 }
