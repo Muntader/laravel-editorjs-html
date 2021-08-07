@@ -18,3 +18,13 @@ Note: The components work with Tailwind classes
   <li>Link</li>
   <li>Raw</li>
 </ul>
+<h2>Support Blocks</h2>
+
+<h2>Installation</h2>
+composer require ankitech/laravel-editorjs-html
+
+<h2>Usage</h2>
+<pre>
+$convertToHtml = new EditorJSHtml($request->input('editorjs_data'));
+$convertToHtml->render(); return html view
+</pre>
