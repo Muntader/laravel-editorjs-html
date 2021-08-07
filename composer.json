@@ -19,16 +19,7 @@
             "Ankitech\\LaravelEditorjsHtml\\": "src/"
         }
     },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Ankitech\\LaravelEditorjsHtml\\EditorJSHtmlProvider"
-            ],
-            "aliases": {
-                "EditorJSHtml": "Ankitech\\LaravelEditorjsHtml\\Facades\\EditorJSHtml"
-            }
-        },
-        
+    "extra": { 
         "branch-alias": {
             "dev-master": "1.0-dev"
         }
