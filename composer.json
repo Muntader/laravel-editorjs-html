@@ -26,5 +26,15 @@
         "psr-4": {
             "Ankitech\\LaravelEditorjsHtml\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ankitech\\LaravelEditorjsHtml\\EditorJSHtmlProvider"
+            ],
+            "aliases": {
+                "EditorJSHtml": "Ankitech\\LaravelEditorjsHtml\\Facades\\EditorJSHtml"
+            }
+        }
     }
 }
