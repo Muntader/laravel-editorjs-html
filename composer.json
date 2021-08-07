@@ -1,5 +1,12 @@
 {
     "name": "ankitech/laravel-editorjs-html",
+    "keywords": [
+        "laravel",
+        "editorjs",
+        "convert",
+        "html"
+    ],
+    "description": "Convert object editorjs to html view",
     "type": "metapackage",
     "license": "MIT",
     "require": {

@@ -1,42 +1,41 @@
-<?php return array (
-  'root' => 
-  array (
-    'pretty_version' => '1.0.0+no-version-set',
-    'version' => '1.0.0.0',
-    'aliases' => 
-    array (
+<?php return array(
+    'root' => array(
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'type' => 'metapackage',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => '59f96af1316c90dc04d039c550bb9bd53b9c140d',
+        'name' => 'ankitech/laravel-editorjs-html',
+        'dev' => true,
     ),
-    'reference' => NULL,
-    'name' => 'ankitech/laravel-editorjs-html',
-  ),
-  'versions' => 
-  array (
-    'ankitech/laravel-editorjs-html' => 
-    array (
-      'pretty_version' => '1.0.0+no-version-set',
-      'version' => '1.0.0.0',
-      'aliases' => 
-      array (
-      ),
-      'reference' => NULL,
+    'versions' => array(
+        'ankitech/laravel-editorjs-html' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'type' => 'metapackage',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => '59f96af1316c90dc04d039c550bb9bd53b9c140d',
+            'dev_requirement' => false,
+        ),
+        'codex-team/editor.js' => array(
+            'pretty_version' => 'v2.0.7',
+            'version' => '2.0.7.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../codex-team/editor.js',
+            'aliases' => array(),
+            'reference' => 'b2c6586c948ed30683718184f0156b0b1fd9593f',
+            'dev_requirement' => false,
+        ),
+        'ezyang/htmlpurifier' => array(
+            'pretty_version' => 'v4.13.0',
+            'version' => '4.13.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../ezyang/htmlpurifier',
+            'aliases' => array(),
+            'reference' => '08e27c97e4c6ed02f37c5b2b20488046c8d90d75',
+            'dev_requirement' => false,
+        ),
     ),
-    'codex-team/editor.js' => 
-    array (
-      'pretty_version' => 'v2.0.7',
-      'version' => '2.0.7.0',
-      'aliases' => 
-      array (
-      ),
-      'reference' => 'b2c6586c948ed30683718184f0156b0b1fd9593f',
-    ),
-    'ezyang/htmlpurifier' => 
-    array (
-      'pretty_version' => 'v4.13.0',
-      'version' => '4.13.0.0',
-      'aliases' => 
-      array (
-      ),
-      'reference' => '08e27c97e4c6ed02f37c5b2b20488046c8d90d75',
-    ),
-  ),
 );
