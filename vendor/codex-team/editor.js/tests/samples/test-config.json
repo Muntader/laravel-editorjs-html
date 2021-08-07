@@ -1,0 +1,74 @@
+{
+  "tools": {
+    "header": {
+      "text": {
+        "type": "string",
+        "allowedTags": ""
+      },
+      "level": {
+        "type": "int",
+        "canBeOnly": [2, 3, 4]
+      }
+    },
+    "paragraph": {
+      "text": {
+        "type": "string",
+        "allowedTags": "i,b,u,a[href]"
+      }
+    },
+    "list": {
+      "style": {
+        "type": "string",
+        "canBeOnly": ["ordered", "unordered"]
+      },
+      "items": {
+        "type": "array",
+        "data": {
+          "-": {
+            "type": "string",
+            "allowedTags": "i,b,u"
+          }
+        }
+      }
+    },
+    "quote": {
+      "text": {
+        "type": "string",
+        "allowedTags": "i,b,u"
+      },
+      "caption": {
+        "type": "string"
+      },
+      "alignment": {
+        "type": "string",
+        "canBeOnly": ["left", "center"]
+      }
+    },
+    "table": {
+      "header": {
+        "type": "array",
+        "data": {
+          "description": {
+            "type": "string"
+          },
+          "author": {
+            "type": "string"
+          }
+        }
+      },
+      "rows": {
+        "type": "array",
+        "data": {
+          "-": {
+            "type": "array",
+            "data": {
+              "-": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

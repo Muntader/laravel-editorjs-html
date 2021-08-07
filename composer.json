@@ -1,0 +1,22 @@
+{
+    "name": "ankitech/laravel-editorjs-html",
+    "type": "metapackage",
+    "license": "MIT",
+    "require": {
+        "php": "^7.3|^8.0",
+        "codex-team/editor.js": "dev-master",
+        "illuminate/support": "^6|^7|^8"
+    },
+    "authors": [
+        {
+            "name": "Muntadher",
+            "email": "dev@ankitech.co"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Ankitech\\LaravelEditorjsHtml\\": "src/"
+        }
+    }
+}
