@@ -7,7 +7,7 @@
         "html"
     ],
     "description": "Convert object editorjs to html view",
-    "type": "metapackage",
+    "type": "library",
     "license": "MIT",
     "require": {
         "php": "^7.3|^8.0",
